@@ -8,9 +8,11 @@ def load_vm():
     vm1 = contents.VendingMachine("A1", 10, "Water", 2)
     vm2 = contents.VendingMachine("A2", 20, "Chips", 4)
     vm3 = contents.VendingMachine("A3", 30, "Chocolate", 10)
+    vm4 = contents.VendingMachine("A4", 40, "Juice", 10)
     items.append(vm1)
     items.append(vm2)
     items.append(vm3)
+    items.append(vm4)
     a=len(items)
     print(a)
 
