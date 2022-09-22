@@ -13,5 +13,5 @@ url_link = 'https://www.youtube.com'
 
 qr.add_data(url_link)
 qr.make(fit=True)
-img = qr.make_image(fill="black",back_color="white")
+img = qr.make_image(fill="black",back_color="blue")
 img.save("scanner_img.png")
